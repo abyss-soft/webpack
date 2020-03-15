@@ -6,7 +6,8 @@ const ROOT_DIRECTORY = path.join(__dirname, '..')
 const SRC_DIRECTORY = path.join(ROOT_DIRECTORY, 'src')
 
 const config = {
-  entry: [path.resolve('./src/app/js/main.js')],
+  target: "web", //"node" or "web"
+  entry: [path.resolve(__dirname, '../src/app/js/main.js')],
   output: {
     path: path.resolve(__dirname, '../build'),
     filename: 'bundle.js',
