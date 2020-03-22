@@ -1,5 +1,8 @@
-@import "var";
-@import "mixin";
-@import "fonts";
+@import 'var';
+@import 'mixin';
+@import 'fonts';
 
-
+.hello {
+  font-family: 'AvenirNextCyr', Arial, sans-serif;
+  color: $textColorDefault;
+}

@@ -4,3 +4,5 @@ export function sumMy(x, y) {
     return one + y
   }
 }
+
+// console.log(sumMy(3)(7))
